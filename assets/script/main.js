@@ -23,10 +23,15 @@ function showRemaining() {
   var minutes = Math.floor((distance) / _minute);
   var seconds = Math.floor((distance) / _second);
 
-  document.getElementById("countdown_timer").innerHTML = days + "days <br>";
-  document.getElementById("countdown_timer").innerHTML += hours + "hrs <br>";
-  document.getElementById("countdown_timer").innerHTML += minutes + "mins <br>";
-  document.getElementById("countdown_timer").innerHTML += seconds + "secs";
+  var countdownTimerEle = document.getElementById("countdown_timer");
+
+  var content = `
+    <div class="days">Days    : ${days}</div>
+    <div class="hrs"><strong>Hours   : ${hours}</strong></div>
+    <div class="mins">Minutes : ${minutes}</div>
+    <div class="secs">Seconds : ${seconds}</div>
+  `;
+  countdownTimerEle.innerHTML = content;
 }
 
 timer = setInterval(showRemaining, 1000);
