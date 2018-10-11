@@ -1,1 +1,26 @@
 /* Custom Styling */
+div#countdown_timer{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-size: 7vw;
+
+}
+.days{
+
+}
+.hrs{
+
+}
+.mins{
+
+}
+.secs{
+
+}
