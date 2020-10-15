@@ -14,7 +14,7 @@ function showRemaining() {
   var distance = end - now;
   if (distance < 0) {
     clearInterval(timer);
-    document.getElementById("countdown_timer").innerHTML = "Time's up!";
+    document.getElementById("countdown_timer").innerHTML = "Did you acheive your Goals?";
 
     return;
   }
