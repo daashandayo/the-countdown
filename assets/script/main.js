@@ -15,7 +15,6 @@ function showRemaining() {
   if (distance < 0) {
     clearInterval(timer);
     document.getElementById("countdown_timer").innerHTML = "Did you acheive your Goals?";
-
     return;
   }
   var days = Math.floor(distance / _day);
