@@ -1,5 +1,4 @@
-/* Custom Styling */
-div#countdown_timer{
+.goal_timer {
     display:flex;
     width:100vw;
     height:100vh;
