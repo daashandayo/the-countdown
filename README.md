@@ -1,11 +1,51 @@
 # The Countdown
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+> Countdown timer implemented in React and Vanilla JavaScript.
 
-### Comes in two Flavours
+<p align="center">
+  <a href="https://juzQrios.github.io/the-countdown/">Vanilla JavaScript implementation</a>
+</p>
 
-    
-|         	| Hosted by                                                 	| Source Code at                                                                 	|
-|---------	|-----------------------------------------------------------	|--------------------------------------------------------------------------------	|
-| Vanilla 	| [Github Pages](https://juzQrios.github.io/the-countdown/) 	| `master` [branch](https://github.com/juzQrios/the-countdown/tree/master)       	|
-| React   	| [Netlify](https://brave-rosalind-36f008.netlify.com/)     	| `react-dev` [branch](https://github.com/juzQrios/the-countdown/tree/react-dev) 	|
+
+<p align="center">
+  <a href="https://brave-rosalind-36f008.netlify.com/">React implementation</a>
+</p>
+
+## Built With
+
+* React
+* JavaScript
+* HTML
+* CSS
+
+## Get Started
+
+### Setup
+
+1. Clone this repository.
+
+```bash
+git clone git@github.com:juzQrios/the-countdown.git
+```
+
+2. No installation required for JavaScript implementation
+
+### Tests
+
+While it is a good practice to test code, this project doesn't have any tests right now but I might add them in future.
+
+## Acknowledgments
+
+* Siva Charan's answer on Stackoverflow - https://stackoverflow.com/a/9335296
+
+## License
+
+This project is [MIT](./LICENSE) licensed.
+
+## Authors
+
+#### Darshan
+
+* GitHub: [@juzQrios](https://github.com/juzQrios)
+* LinkedIn: [Darshan J](https://www.linkedin.com/in/jayadevdarshan/)
+* Email: <dj30c.1@gmail.com>
